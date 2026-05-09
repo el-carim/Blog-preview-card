@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(47, 88%, 63%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+    font-family: 'Figtree', sans-serif;
+}
+
+.card {
+    background-color: hsl(0, 0%, 100%);
+    max-width: 384px;
+    width: 100%;
+    border-radius: 20px;
+    padding: 24px;
+    border: 2px solid hsl(0, 0%, 7%);
+    box-shadow: 8px 8px 0px hsl(0, 0%, 7%);
+}
+
+.card-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    display: block;
+    margin-bottom: 24px;
+}
+
+.card-content {
+    margin-bottom: 24px;
+}
+
+.badge {
+    display: inline-block;
+    background-color: hsl(47, 88%, 63%);
+    color: hsl(0, 0%, 7%);
+    padding: 4px 12px;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: 800;
+    margin-bottom: 12px;
+}
+
+.date {
+    color: hsl(0, 0%, 42%);
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 12px;
+    line-height: 1.5;
+}
+
+.card h1 {
+    color: hsl(0, 0%, 7%);
+    font-size: 26px;
+    font-weight: 800;
+    margin-bottom: 12px;
+    line-height: 1.2;
+}
+
+.card h1 a {
+    color: hsl(0, 0%, 7%);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.card h1 a:hover {
+    color: hsl(47, 88%, 63%);
+}
+
+.description {
+    color: hsl(0, 0%, 42%);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.6;
+}
+
+.author {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.author-image {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+
+.author-name {
+    color: hsl(0, 0%, 7%);
+    font-size: 14px;
+    font-weight: 800;
+}
+
+a:link {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+    color: hsl(47, 88%, 63%);
+}
+a:visited {
+    text-decoration: none;
+    color: hsl(0, 0%, 7%);
+}
